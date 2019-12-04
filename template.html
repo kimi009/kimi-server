@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  </head>
+  <body>
+    <ul>
+      {{each children item}}
+      <li style="margin: 10px 0;">
+        <a style="font-size: 20px;" href="{{item.parent}}">{{item.current}}</a>
+      </li>
+      {{/each}}
+    </ul>
+  </body>
+</html>
