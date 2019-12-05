@@ -1,6 +1,6 @@
 {
-  "name": "http-server",
-  "version": "1.0.0",
+  "name": "kimi-server",
+  "version": "1.0.1",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -9,7 +9,10 @@
   "bin": {
     "kimi-server": "./bin/www"
   },
-  "keywords": ["http-server","kimi-server"],
+  "keywords": [
+    "kimi-server",
+    "http-server"
+  ],
   "repository": {
     "type": "git",
     "url": "https://github.com/kimi009/kimi-server.git"
